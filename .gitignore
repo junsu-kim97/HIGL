@@ -1,3 +1,16 @@
+# Custom
+notebook/
+results/
+logs/
+logs*
+pretrained_models/
+models/
+landmark_logs/
+
+opts.pkl
+environement.env
+*.npy
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
