@@ -1,5 +1,5 @@
 # HIGL
-This is a PyTorch implementation for our paper: Landmark-Guided Subgoal Generation in Hierarchical Reinforcement Learning (NeurIPS 2021).
+This is a PyTorch implementation for our paper: [Landmark-Guided Subgoal Generation in Hierarchical Reinforcement Learning](https://arxiv.org/abs/2110.13625) (NeurIPS 2021).
 
 Our code is based on official implementation of [HRAC](https://github.com/trzhang0116/HRAC) (NeurIPS 2020) and
 [Map-planner](https://github.com/FangchenLiu/map_planner) (NeurIPS 2019)
@@ -16,9 +16,9 @@ Also, to run the MuJoCo experiments, a license is required (see [here](https://w
 ### Training & Evaluation
 - Point Maze
 ```
-./scripts/higl_point_maze.sh ${reward_shaping} ${timesteps} ${gpu} ${seed}
-./scripts/higl_point_maze.sh dense 5e5 0 2
-./scripts/higl_point_maze.sh sparse 5e5 0 2
+./scripts/point_maze_sparse.sh ${reward_shaping} ${timesteps} ${gpu} ${seed}
+./scripts/point_maze_sparse.sh dense 5e5 0 2
+./scripts/point_maze_sparse.sh sparse 5e5 0 2
 ```
 
 - Ant Maze (U-shape)

@@ -1,4 +1,5 @@
 ENV=$1
+TIMESTEPS=$2
 GPU=$2
 SEED=$3
 
@@ -9,7 +10,7 @@ CUDA_VISIBLE_DEVICES=${GPU} python main.py \
 --reward_shaping "sparse" \
 --algo higl \
 --seed ${SEED} \
---max_timesteps 20e5 \
+--max_timesteps  ${TIMESTEPS} \
 --manager_propose_freq 5 \
 --landmark_sampling fps \
 --n_landmark_coverage 20 \
