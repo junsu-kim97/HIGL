@@ -37,9 +37,9 @@ Also, to run the MuJoCo experiments, a license is required (see [here](https://w
 
 - Reacher & Pusher
 ```
-./scripts/higl_fetch.sh ${env} ${gpu} ${seed}
-./scripts/higl_fetch.sh Reacher3D-v0 0 2
-./scripts/higl_fetch.sh Pusher-v0 0 2
+./scripts/higl_fetch.sh ${env} ${timesteps} ${gpu} ${seed}
+./scripts/higl_fetch.sh Reacher3D-v0 5e5 0 2
+./scripts/higl_fetch.sh Pusher-v0 10e5 0 2
 ```
 
 - Stochastic Ant Maze (U-shape)

@@ -11,8 +11,8 @@ CUDA_VISIBLE_DEVICES=${GPU} python main.py \
 --seed ${SEED} \
 --max_timesteps ${TIMESTEPS} \
 --landmark_sampling fps \
---n_landmark_coverage 40 \
+--n_landmark_coverage 60 \
 --use_novelty_landmark \
 --novelty_algo rnd \
---n_landmark_novelty 40 \
+--n_landmark_novelty 60 \
 --seed ${SEED}
